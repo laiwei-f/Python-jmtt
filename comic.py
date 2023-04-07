@@ -209,7 +209,7 @@ def convertImg(img_url):
     #img_new.show() # 调试显示转化后的图片
     img_new.save(img_url)
 #需要爬取的页数
-page= int(input('请输入想要获取的页数：'))
+page= int(input('请输入想要获取的页数：1'))
 #需要解析的链接
 pageurl= input('请输入想获取的分类链接：')                                                         # https://18comic.vip/search/photos?search_query=%E6%AF%8D%E5%AD%90&page=3 https://18comic1.one/search/photos?search_query=%E6%88%91%E8%A6%81%E6%88%90%E4%B8%BA%E5%8D%83%E9%87%91%E7%8C%8E%E4%BA%BA&main_tag=0
 #控制爬取的页数                                                                                   # https://18comic1.one/search/photos?search_query=%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85-%E9%B8%A3%E4%BA%BA%E4%B8%8E%E5%AE%B6%E4%BA%BAV2&main_tag=0
